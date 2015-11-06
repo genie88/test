@@ -1,5 +1,4 @@
 image: python
 script:
-  - python -m compileall .
-  - /bin/bash helloworld.pyc
+  - python helloworld.py
   - echo "Build has been compelted."
