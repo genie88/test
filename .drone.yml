@@ -1,5 +1,4 @@
-build:
- image: ubuntu
- command:
-  - apt-get install git
-  - /usr/bin/python helloworld.py
+image: ubuntu
+commands:
+ - apt-get install git
+ - /usr/bin/python helloworld.py
