@@ -1,7 +1,4 @@
-clone:
-  path: github.com/arunpyasi/test
-build:
- image: ubuntu
- script:
+image: ubuntu
+script:
   - apt-get install git
   - /usr/bin/python helloworld.py
