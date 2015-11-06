@@ -1,4 +1,3 @@
-image: ubuntu
+image: python
 script:
-  - apt-get install git
   - /usr/bin/python helloworld.py
